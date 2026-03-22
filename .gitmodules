@@ -1,0 +1,3 @@
+[submodule "loficode-hugo-theme"]
+	path = loficode-hugo-theme
+	url = https://github.com/meimakes/loficode-hugo-theme.git
