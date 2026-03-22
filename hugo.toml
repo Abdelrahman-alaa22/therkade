@@ -1,4 +1,4 @@
 baseURL = "https://abdelrahman-alaa22.github.io/therkade/"
 languageCode = "en-us"
-title = "My Site Name"
-theme = "loficode-hugo-theme"
+title = "therkade"
+theme = "loficode"
