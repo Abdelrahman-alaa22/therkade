@@ -1,5 +1,6 @@
-+++
-date = '2026-03-22T04:08:09+02:00'
-draft = true
-title = ''
-+++
+---
+title: "Welcome"
+draft: false
+---
+
+Welcome to my site! I write about code, creativity, and everything in between.
