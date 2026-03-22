@@ -21,14 +21,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive    # ← critical: this downloads your theme
+          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "latest"
-          extended: true           # ← critical: use Extended edition
+          extended: true
 
       - name: Build site
         run: hugo --minify
@@ -48,12 +48,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
-
-### 10C. Create a .gitignore file
-
-In the root of your project, create `.gitignore`:
-```
-public/
-resources/
-.hugo_build.lock
